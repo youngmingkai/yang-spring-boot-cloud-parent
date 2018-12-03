@@ -16,11 +16,11 @@ spring:
         service-id: config-server  # 指定Config Server在服务发现中的serviceId，默认是configserver
 
   rabbitmq:
-    host: 42.159.81.29
+    host: xxxx
     port: 5672
-    username: shaoxi
-    password: 51shaoxi
-    virtualHost: shaoxi
+    username: xxx
+    password: xxx
+    virtualHost: xxxx
 
 eureka:
   client:
