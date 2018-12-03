@@ -1,0 +1,15 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: ribbon-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+  instance:
+    prefer-ip-address: true
+
+provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
