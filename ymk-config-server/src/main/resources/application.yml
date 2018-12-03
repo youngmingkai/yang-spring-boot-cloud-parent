@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/youngmingkai/spring-cloud-config-repo/
           #          uri: https://github.com/youngmingkai/{application}   #  占位符
-          username: youngmingkai
-          password: y674459794
+          username: xxxx
+          password: xxxx
 
 eureka:
   client:
